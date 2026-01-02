@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+:root {
+  --dwello-100: #fbf5f1;
+  --dwello-200: #ddc7bb;
+  --dwello-300: #2b1b12;
+  --dwello-star: #2b1b12;
+}
