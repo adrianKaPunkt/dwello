@@ -13,7 +13,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="w-[1440px] mx-auto pl-[104px] pt-16 bg-(--dwello-100)">
+    <div class="w-[1440px] mx-auto pt-16 text-(--dwello-400)">
       <header>
         <nav class="flex">
           <img class="" src="./images/icons/logo.svg" alt="Logo" />
@@ -25,7 +25,76 @@
         </nav>
       </header>
       <main>
-        <section id="hero"></section>
+        <section id="hero" class="relative">
+          <div class="relative">
+            <div
+              class="flex items-center relative pl-[104px] h-[780px] bg-(--dwello-100)">
+              <div
+                class="flex flex-col justify-between w-[520px] h-[420px] z-10">
+                <h1 class="font-extrabold text-[74px] leading-20">
+                  Find Your Dream Home
+                </h1>
+                <p class="w-[413px] font-bold text-[18px] leading-8">
+                  Explore our curated selection of exquisite properties
+                  meticulously tailored to your unique dream home vision
+                </p>
+                <button
+                  class="w-44 h-[58px] bg-(--dwello-400) text-white text-[18px] font-semibold rounded-xl"
+                  href="#">
+                  Sign up
+                </button>
+              </div>
+              <div class="absolute -top-20 -right-20">
+                <img
+                  class="w-[1000px]"
+                  src="./images/hero-image.png"
+                  alt="Hero image" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute px-10 flex items-center justify-between -bottom-20 left-[185px] w-[1070px] h-40 z-20 bg-(--dwello-200) rounded-2xl">
+            <div class="flex gap-4">
+              <div class="relative">
+                <input
+                  class="bg-(--dwello-100) rounded-xl w-[252px] h-[58px] pl-4 placeholder-(--dwello-300) placeholder:text-[18px] placeholder:font-bold"
+                  type="text"
+                  placeholder="Location" />
+                <img
+                  class="absolute top-4 right-4"
+                  src="./images/icons/location.svg"
+                  alt="Location logo" />
+              </div>
+              <div class="relative">
+                <input
+                  class="bg-(--dwello-100) rounded-xl w-[252px] h-[58px] pl-4 placeholder-(--dwello-300) placeholder:text-[18px] placeholder:font-bold"
+                  type="text"
+                  placeholder="Type" />
+                <img
+                  class="absolute top-4 right-4"
+                  src="./images/icons/home.svg"
+                  alt="Location logo" />
+              </div>
+              <div class="relative">
+                <input
+                  class="bg-(--dwello-100) rounded-xl w-[252px] h-[58px] pl-4 placeholder-(--dwello-300) placeholder:text-[18px] placeholder:font-bold"
+                  type="text"
+                  placeholder="Price Range" />
+                <img
+                  class="absolute top-4 right-4"
+                  src="./images/icons/price.svg"
+                  alt="Location logo" />
+              </div>
+            </div>
+            <div>
+              <button
+                class="w-[156px] h-[58px] bg-(--dwello-400) text-white text-[18px] font-semibold rounded-xl"
+                href="#">
+                Sign up
+              </button>
+            </div>
+          </div>
+        </section>
         <section id="about"></section>
         <section id="why"></section>
         <section id="residences"></section>
