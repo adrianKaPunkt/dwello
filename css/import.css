@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --dwello-100: #fbf5f1;
@@ -6,6 +6,15 @@
   --dwello-300: #695346;
   --dwello-400: #2b1b12;
 
+<<<<<<< HEAD
   font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, sans-serif;
+=======
+  font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, sans-serif;
+}
+
+.header-2 {
+  color: blueviolet;
+>>>>>>> b04c26ab89cc90520503cc9842ccb7758cb69fcf
 }
