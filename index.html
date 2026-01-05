@@ -13,14 +13,34 @@
     <title>Dwello - Find Your Dream</title>
   </head>
   <body>
-    <div class="w-[1440px] mx-auto pt-16 text-(--dwello-400)">
-      <header>
-        <nav class="flex">
-          <img class="" src="./images/icons/logo.svg" alt="Logo" />
-          <div>
-            <ul class="font-bold text-[18px]">
-              <li>Home</li>
-            </ul>
+    <div class="w-360 mx-auto pt-16 text-(--dwello-400)">
+      <header class="flex justify-between bg-(--dwello-100) px-26 pt-10">
+        <div class="mr-67.5">
+          <img src="./images/icons/logo.svg" alt="Logo" />
+        </div>
+        <nav class="flex flex-auto justify-between">
+          <div class="flex flex-12 justify-between h-12 font-bold text-lg">
+            <p class="self-center">Home</p>
+            <p class="self-center">Service</p>
+            <p class="self-center">Agents</p>
+            <p class="self-center">Contact</p>
+          </div>
+          <div class="flex h-12">
+            <div class="self-center align-middle w-6 h-6 ml-34.25">
+              <img src="./images/icons/search.svg" alt="search" />
+            </div>
+            <div class="self-center w-6 h-6 ml-8">
+              <img
+                class="align-middle"
+                src="./images/icons/user.svg"
+                alt="user"
+              />
+            </div>
+            <button
+              class="ml-11 w-30.5 h-12 bg-(--dwello-400) text-white text-base font-semibold rounded-xl"
+            >
+              Sign up
+            </button>
           </div>
         </nav>
       </header>
@@ -96,7 +116,48 @@
           </div>
         </section>
 
-        <section id="about"></section>
+        <section id="about" class="flex justify-between px-26 pb-51 bg-white">
+          <div id="about-image">
+            <img class="rounded-2xl" src="./images/about-image.jpg" alt="" />
+          </div>
+          <div id="about-info" class="w-134.5">
+            <p
+              class="text-[40px] leading-14 text-(--dwello-400) font-extrabold pb-8"
+            >
+              We Help You To Find Your Dream Home
+            </p>
+            <p class="text-lg text-(--dwello-350) font-bold pb-12">
+              From cozy cottages to luxurious estates, our <br />
+              dedicated team guides you through every step of the <br />
+              journey, ensuring your dream home becomes a reality
+            </p>
+            <div
+              id="about-data"
+              class="flex justify-between text-(--dwello-350)"
+            >
+              <div name="about-card">
+                <div name="about-count" class="text-5xl font-bold">
+                  <p>8K+</p>
+                </div>
+                <div name="about-label" class="text-lg font-semibold">
+                  Houses Available
+                </div>
+              </div>
+              <div name="about-card">
+                <div name="about-count" class="text-5xl font-bold">6K+</div>
+                <div name="about-label" class="text-lg font-semibold">
+                  Houses Sold
+                </div>
+              </div>
+              <div name="about-card">
+                <div name="about-count" class="text-5xl font-bold">2K+</div>
+                <div name="about-label" class="text-lg font-semibold">
+                  Trusted Agents
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <section id="why" class="mb-32">
           <div class="w-[630px] mx-auto text-center mb-16">
@@ -162,7 +223,155 @@
           </div>
         </section>
 
-        <section id="residences"></section>
+        <section id="residences" class="flex flex-col bg-white pl-26 pr-17.5">
+          <div id="residences-title" class="flex justify-center">
+            <p class="text-5xl font-extrabold mb-13.5">
+              Our Popular Residences
+            </p>
+          </div>
+          <div
+            id="residences-collection"
+            class="flex flex-row justify-between pb-38"
+          >
+            <div
+              name="residences-card"
+              class="flex flex-col content bg-(--dwello-200) rounded-2xl overflow-hidden w-95.5 drop-shadow-lg"
+            >
+              <div name="residences-image" class="flex top-0">
+                <img
+                  class="object-cover object-[1px_17px] object-top w-95.5 h-89"
+                  src="./images/residences-1.png"
+                  alt="San Francisco, California"
+                />
+              </div>
+              <div
+                name="residences-sub-text"
+                class="h-34 flex flex-col justify-between mx-5 my-5"
+              >
+                <div name="residences-title" class="flex">
+                  <img class="pr-1" src="./images/icons/location.svg" alt="" />
+                  <p class="text-xl font-bold">San Francisco, California</p>
+                </div>
+
+                <div name="residences-details" class="flex">
+                  <img
+                    class="bg-white rounded-xs mr-2"
+                    src="./images/icons/rooms.svg"
+                    alt=""
+                  />
+                  <p class="text-lg font-semibold">4 rooms</p>
+                  <img
+                    class="bg-white rounded-xs mr-2 ml-10"
+                    src="./images/icons/size.svg"
+                    alt=""
+                  />
+                  <p class="text-lg font-semibold">3,500 sq ft</p>
+                </div>
+                <div name="residences-order" class="flex justify-between">
+                  <button
+                    class="w-24.5 h-10 bg-(--dwello-400) text-white text-sm font-semibold rounded-xl"
+                    href="#"
+                  >
+                    Sign up
+                  </button>
+                  <p class="text-xl font-bold self-end">$2,500,000</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              name="residences-card"
+              class="flex flex-col content bg-(--dwello-200) rounded-2xl overflow-hidden w-95.5 drop-shadow-lg"
+            >
+              <div name="residences-image" class="flex top-0">
+                <img
+                  class="object-cover object-[1px_6px] object-top w-95.5 h-89"
+                  src="./images/residences-2.png"
+                  alt="San Francisco, California"
+                />
+              </div>
+              <div
+                name="residences-sub-text"
+                class="h-34 flex flex-col justify-between mx-5 my-5"
+              >
+                <div name="residences-title" class="flex">
+                  <img class="pr-1" src="./images/icons/location.svg" alt="" />
+                  <p class="text-xl font-bold">Beverly Hills, California</p>
+                </div>
+
+                <div name="residences-details" class="flex">
+                  <img
+                    class="bg-white rounded-xs mr-2"
+                    src="./images/icons/rooms.svg"
+                    alt=""
+                  />
+                  <p class="text-lg font-semibold">3 rooms</p>
+                  <img
+                    class="bg-white rounded-xs mr-2 ml-10"
+                    src="./images/icons/size.svg"
+                    alt=""
+                  />
+                  <p class="text-lg font-semibold">1,500 sq ft</p>
+                </div>
+                <div name="residences-order" class="flex justify-between">
+                  <button
+                    class="w-24.5 h-10 bg-(--dwello-400) text-white text-sm font-semibold rounded-xl"
+                    href="#"
+                  >
+                    Sign up
+                  </button>
+                  <p class="text-xl font-bold self-end">$850,000</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              name="residences-card"
+              class="flex flex-col content bg-(--dwello-200) rounded-2xl overflow-hidden w-95.5 drop-shadow-lg"
+            >
+              <div name="residences-image" class="flex top-0">
+                <img
+                  class="object-cover object-[24px_14px] object-top w-95.5 h-89"
+                  src="./images/residences-3.png"
+                  alt="San Francisco, California"
+                />
+              </div>
+              <div
+                name="residences-sub-text"
+                class="h-34 flex flex-col justify-between mx-5 my-5"
+              >
+                <div name="residences-title" class="flex">
+                  <img class="pr-1" src="./images/icons/location.svg" alt="" />
+                  <p class="text-xl font-bold">Palo Alto, California</p>
+                </div>
+
+                <div name="residences-details" class="flex">
+                  <img
+                    class="bg-white rounded-xs mr-2"
+                    src="./images/icons/rooms.svg"
+                    alt=""
+                  />
+                  <p class="text-lg font-semibold">6 rooms</p>
+                  <img
+                    class="bg-white rounded-xs mr-2 ml-10"
+                    src="./images/icons/size.svg"
+                    alt=""
+                  />
+                  <p class="text-lg font-semibold">4,000 sq ft</p>
+                </div>
+                <div name="residences-order" class="flex justify-between">
+                  <button
+                    class="w-24.5 h-10 bg-(--dwello-400) text-white text-sm font-semibold rounded-xl"
+                    href="#"
+                  >
+                    Sign up
+                  </button>
+                  <p class="text-xl font-bold self-end">$3,700,000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <section id="testemony" class="bg-(--dwello-100) pt-16">
           <div class="w-[450px] mx-auto">
